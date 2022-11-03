@@ -1,6 +1,6 @@
 const yargs = require("yargs");
 const { hideBin } = require("yargs/helpers");
-const info = require("./contacts");
+const info = require("./contactsFunctions/contacts");
 
 async function invokeAction({ action, id, name, email, phone }) {
   switch (action) {
